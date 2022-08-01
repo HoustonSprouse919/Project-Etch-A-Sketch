@@ -13,4 +13,4 @@ content.style.height = "10px"
 container.appendChild(content);
 }
 }
-createGird(5);
+createGird(16);
