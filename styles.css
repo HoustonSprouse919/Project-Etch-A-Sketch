@@ -2,6 +2,22 @@ body{
     display: inline-block;
     text-align: center;
     width: 100%;
+    margin: auto;
+}
+h1{
+    font-family: 'Courier New', monospace;
+    margin-bottom: 0px;
+}
+button{
+    color: ivory;
+    background-color:dodgerblue;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 300px;
 }
 #container{
     background-color: rgb(89, 218, 218);
