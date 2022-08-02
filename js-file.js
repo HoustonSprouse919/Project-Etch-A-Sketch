@@ -11,9 +11,16 @@ content.classList.add('content');
 content.textContent = '';
 content.style.color = 'blue';
 content.style.border = 'solid';
-content.style.width = "10px"
-content.style.height = "10px"
+content.style.width = "20px"
+content.style.height = "20px"
+content.addEventListener('mouseover', mouseOver);
+
 container.appendChild(content);
 }
 }
 createGird(16);
+
+function mouseOver(){
+console.log("working")
+
+}
