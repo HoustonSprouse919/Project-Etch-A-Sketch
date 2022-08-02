@@ -1,10 +1,12 @@
 body{
+    background-color: rgb(73, 71, 71);
     display: inline-block;
     text-align: center;
     width: 100%;
     margin: auto;
 }
 h1{
+    color: ivory;
     font-family: 'Courier New', monospace;
     margin-bottom: 0px;
 }
@@ -25,4 +27,13 @@ button{
     width: 960px;
     height: 960px;
     margin: auto;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px ;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left:0;
 }
