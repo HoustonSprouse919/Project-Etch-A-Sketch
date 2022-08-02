@@ -15,12 +15,12 @@ content.style.width = "20px"
 content.style.height = "20px"
 content.addEventListener('mouseover', mouseOver);
 
+function mouseOver(){
+    console.log("working")
+    content.setAttribute("style", "background-color:red;")
+    }
+    
 container.appendChild(content);
 }
 }
 createGird(16);
-
-function mouseOver(){
-console.log("working")
-
-}
