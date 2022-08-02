@@ -1,5 +1,8 @@
 let selectedGird =0;
+
 function createGird(grid){
+container.style.gridTemplateColumns = `repeat(${grid}, 1fr)`
+container.style.gridTemplateRows = `repeat(${grid}, 1fr)`
 let gridNum = grid * grid;
 for(var i = 0; i< gridNum; i++){
 const container = document.querySelector('#container');
