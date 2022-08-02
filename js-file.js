@@ -1,4 +1,7 @@
 let selectedGird =0; //num that user picks
+
+
+
 function createGird(grid){
 container.style.gridTemplateColumns = `repeat(${grid}, 1fr)` //these use grid to make rows and columns =
 container.style.gridTemplateRows = `repeat(${grid}, 1fr)`    //what user chooses
@@ -22,5 +25,14 @@ function mouseOver(){
 
 container.appendChild(content);
 }
+}
+function gridChooser(){
+    var userAmount = prompt("please input number of squares per side (max of 100)");
+    if(userAmount >= 100 || userAmount <= 0){
+        alert ("invalid user amount"); 
+    }
+    else {
+        createGird(userAmount)
+    }
 }
 createGird(16);
