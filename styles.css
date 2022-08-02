@@ -1,6 +1,10 @@
 body{
     display: inline-block;
+    text-align: center;
+    margin-left: 45%;
 }
 #container{
+    background-color: aqua;
     display: grid;
+    width: 960;
 }
