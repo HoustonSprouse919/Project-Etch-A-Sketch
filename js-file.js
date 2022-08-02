@@ -28,7 +28,7 @@ container.appendChild(content);
 }
 function gridChooser(){
     var userAmount = prompt("please input number of squares per side (max of 100)");
-    if(userAmount >= 100 || userAmount <= 0){
+    if(userAmount > 100 || userAmount <= 0){
         alert ("invalid user amount"); 
     }
     else {
