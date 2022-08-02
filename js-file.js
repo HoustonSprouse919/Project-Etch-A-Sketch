@@ -10,12 +10,8 @@ for(var i = 0; i< gridNum; i++){ //run amount times
 const container = document.querySelector('#container');  //goes into container
 const content = document.createElement('div');  //creates divs called content
 content.classList.add('content'); //adds the content divs
-
 //various style stuff
-content.style.color = 'black';
-content.style.border = 'solid';
-content.style.width = "20px"
-content.style.height = "20px"
+
 content.addEventListener('mouseover', mouseOver); //when mouse over goes to mouse over func
 
 function mouseOver(){

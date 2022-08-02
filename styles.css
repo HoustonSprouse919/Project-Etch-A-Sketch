@@ -6,4 +6,6 @@ body{
 #container{
     background-color: rgb(89, 218, 218);
     display: grid;
+    width: 960px;
+    height: 960px;
 }
