@@ -31,4 +31,12 @@ function gridChooser(){
         createGird(userAmount)
     }
 }
+
+function clearG(){
+    let color = "#89218218";  //maybe needs better even listener
+    content.setAttribute("style", `background-color: ${color};`) //trying to change back to default color
+    container.appendChild(content);
+    }
+
+    
 createGird(16);
